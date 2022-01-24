@@ -6,9 +6,9 @@
 }
 
 .button1 {
-    background-color: whitesmoke;
+    background-color: black;
     border: 1px solid black;
-    color: black;
+    color: white;
     padding: 6px 8px;
     text-align: center;
     display: inline-block;
@@ -18,3 +18,30 @@
     width: 100%;
 }
 
+.header{
+    background-color: black;
+
+}
+
+h1{
+    color: white;
+}
+
+.foto{
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-bottom: auto;
+
+}
+
+p{
+    color: white;
+    width: 20%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
