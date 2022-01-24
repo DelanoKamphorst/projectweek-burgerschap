@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+.landing_img { /*achtergrond img css*/
+    background-image: url("https://i.imgur.com/DHdA5kI.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title_text { /*title css*/
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #3d3d3d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #bbb;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
