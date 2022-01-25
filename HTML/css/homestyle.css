@@ -45,27 +45,41 @@ h3{
 
 .home{
     text-align: center;
-    position: relative;
-    left: 300px;
-    bottom: 50px;
-
+    position: static;
+    margin-right: 10%;
+    margin-left: 15%;
+    width: 50%;
 }
 
-.credits{
-    text-align: center;
-    position: relative;
-    left: 290px;
-}
+
 
 .inleiding{
     text-align: center;
-    position: relative;
-    padding: 10%;
-    left: 290px;
+    position: static;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
 }
 
 .container{
     text-align: center;
-    position: relative
+    position: static
     
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 1px;
+    margin-top: 20%;
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    width: 90%;
+    margin-left: 10px;
+    padding-left: 10%;
 }
