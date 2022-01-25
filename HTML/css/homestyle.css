@@ -1,0 +1,71 @@
+.body{
+background-color: whitesmoke;
+}
+
+.button1 {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1px 1px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.header{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: 10px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10%;
+}
+
+h3{
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10%;  
+}
+
+.home{
+    text-align: center;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+
+}
+
+.credits{
+    text-align: center;
+    position: relative;
+    left: 290px;
+}
+
+.inleiding{
+    text-align: center;
+    position: relative;
+    padding: 10%;
+    left: 290px;
+}
+
+.container{
+    text-align: center;
+    position: relative
+    
+}
