@@ -1,9 +1,10 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(71, 71, 71);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(71, 71, 71);
 }
 .landing_img { /*achtergrond img css*/
-    background-image: url("https://i.imgur.com/DHdA5kI.jpg");
+  background-image: url("https://i.imgur.com/DHdA5kI.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,24 +19,23 @@ body {
 }
 .navbar { /*navbar code*/
   overflow: hidden;
-  background-color: #3d3d3d;
+  background-color: #000000;
   position: fixed;
   top: 0;
   width: 100%;
 }
 .navbar a {
   float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
+  color: #ffffff;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  border-right: 1px solid #bbb;
+  font-size: 18px;
+  border-right: 1px solid rgb(153, 153, 153);
 }
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  background: rgb(80, 80, 80);
+  color: rgb(228, 228, 228);
 }
 .main_left {
   position: absolute;
@@ -44,4 +44,10 @@ body {
   font-size: 150%;
   word-wrap: break-word;
   padding: 40px;
+}
+.images {
+  float: right;
+  margin-left: 20 px;
+  height: 380px;
+  width: 470px;
 }
